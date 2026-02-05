@@ -1,0 +1,308 @@
+{
+  "activityEntities" : [
+    "trainingDataAdded",
+    [
+      {
+        "createdDate" : "2025-11-02T01:57:07Z",
+        "event" : "trainingDataAdded",
+        "id" : "EA3B3EA6-6839-4B70-BF4A-F70139E0657A",
+        "subtitle" : "BetterRest.csv",
+        "title" : "Training Data Added"
+      }
+    ],
+    "trainingFinished",
+    [
+      {
+        "createdDate" : "2025-11-02T01:57:14Z",
+        "event" : "trainingFinished",
+        "id" : "34BCDF6D-399A-4857-8B67-FED0817C9CCF",
+        "subtitle" : "10 iterations",
+        "title" : "Training Completed"
+      }
+    ],
+    "trainingStarted",
+    [
+      {
+        "createdDate" : "2025-11-02T01:57:14Z",
+        "event" : "trainingStarted",
+        "id" : "0EDA7680-E267-4387-A9A0-F43065C19AEB",
+        "subtitle" : "10 iterations",
+        "title" : "Training Started"
+      }
+    ],
+    "experimentCreated",
+    [
+      {
+        "createdDate" : "2025-11-02T01:57:06Z",
+        "event" : "experimentCreated",
+        "id" : "C4809733-946A-4485-A1F6-CBA0E4FB1A33",
+        "subtitle" : "BetterRest 1 copy",
+        "title" : "Model Source Created"
+      }
+    ]
+  ],
+  "contentDataResult" : {
+    "createdDate" : "2025-11-02T01:54:37Z"
+  },
+  "createdDate" : "2025-11-02T01:57:06Z",
+  "evaluationContainerEntity" : {
+    "createdDate" : "2025-11-02T01:57:14Z",
+    "evaluationEntities" : [
+      {
+        "analysedDataType" : "none",
+        "createdDate" : "2025-11-02T01:57:14Z",
+        "dataResult" : {
+
+        },
+        "id" : "604dcd37-310f-48b3-9a64-f955e6c194ab"
+      }
+    ],
+    "id" : "08b087a0-4d40-4ba0-9bae-5914d4cea3fd",
+    "modifiedDate" : "2025-11-02T01:57:14Z",
+    "previewType" : "tabularRegressor",
+    "testingEvaluationEntity" : {
+      "analysedDataType" : "none",
+      "createdDate" : "2025-11-02T01:57:06Z",
+      "dataResult" : {
+        "createdDate" : "2025-11-02T01:57:06Z"
+      },
+      "id" : "9cd4586f-15d7-4b9e-ac9e-ccb45d9a90c1"
+    },
+    "trainingEvaluationEntity" : {
+      "analysedDataType" : "none",
+      "createdDate" : "2025-11-02T01:57:06Z",
+      "dataResult" : {
+        "createdDate" : "2025-11-02T01:57:06Z",
+        "dataAnalysis" : {
+          "classifierAnalysis" : {
+
+          },
+          "issues" : [
+            {
+              "description" : "Data has 10000 rows",
+              "severity" : "info"
+            }
+          ],
+          "objectDetectorAnalysis" : {
+            "details" : {
+
+            }
+          },
+          "regressorAnalysis" : {
+            "targetRange" : [
+              19216,
+              45224
+            ]
+          },
+          "summary" : {
+            "canUseValidation" : 1,
+            "sampleCount" : 10000
+          }
+        },
+        "dataSourceID" : "8ACC4EC5-6E2A-4F04-BEEB-822AE1053D67",
+        "dataURL" : "file:///Users/niccho/dev/swift/HackingWithSwift/SwiftUI/project4-files/BetterRest.csv",
+        "itemsCount" : 10000,
+        "targetRange" : [
+          19216,
+          45224
+        ]
+      },
+      "dataSourceID" : "8ACC4EC5-6E2A-4F04-BEEB-822AE1053D67",
+      "evaluationResult" : {
+        "generalRegressor" : {
+          "maximumError" : 808.73828125,
+          "rootMeanSquaredError" : 174.11518866000839
+        }
+      },
+      "id" : "40ae0de8-ae60-4d27-8519-f2f5890e4f9f"
+    },
+    "validationEvaluationEntity" : {
+      "analysedDataType" : "auto",
+      "createdDate" : "2025-11-02T01:57:06Z",
+      "dataResult" : {
+        "createdDate" : "2025-11-02T01:57:06Z"
+      },
+      "evaluationResult" : {
+        "generalRegressor" : {
+          "maximumError" : 1300.810546875,
+          "rootMeanSquaredError" : 200.96828602835296
+        }
+      },
+      "id" : "3e15e54a-9e27-45df-acbb-cb8bb52bab2d"
+    }
+  },
+  "evaluationEntity" : {
+    "analysedDataType" : "none",
+    "dataResult" : {
+
+    },
+    "id" : "2423299a-ff51-4a7e-9b53-e94981244c58"
+  },
+  "evaluationState" : "uninitialized",
+  "id" : "A00C68D6-CB53-406C-A66F-3CDB34FF81C7",
+  "modelEntity" : {
+    "createdDate" : "2025-11-02T01:57:06Z",
+    "experimentID" : "555668E7-2DBD-4D1B-A0E0-ED77D42A29DD",
+    "id" : "1BE7DC45-BF72-4720-BF0E-A5763B2AEC22",
+    "modelURL" : "Models/BetterRest%201%20copy.mlmodel",
+    "modifiedDate" : "2025-11-02T01:57:06Z",
+    "title" : "",
+    "version" : "1.0"
+  },
+  "modifiedDate" : "2025-11-02T01:57:14Z",
+  "preferredFilename" : "BetterRest 1 copy",
+  "settingEntity" : {
+    "algorithmType" : "maxEnt",
+    "augmentations" : [
+
+    ],
+    "featureNames" : [
+      "wake",
+      "estimatedSleep",
+      "coffee"
+    ],
+    "generalRegressorType" : {
+      "randomForest" : {
+        "columnSubsample" : 0.8,
+        "maxDepth" : 6,
+        "minChildWeight" : 0.1,
+        "minLossReduction" : 0,
+        "rowSubsample" : 0.8
+      }
+    },
+    "handActionClassifierAugmentations" : [
+
+    ],
+    "handPoseClassifierAugmentations" : [
+
+    ],
+    "harVideoAugmentations" : 0,
+    "iterationCount" : 10,
+    "seedType" : "default",
+    "styleTransferAlgorithmType" : "image",
+    "suggestedColumnTypes" : [
+      "Double",
+      "Double",
+      "Double",
+      "Double"
+    ],
+    "suggestedColumnValues" : [
+      "31,500.00, 32,400.00, 26,100.00, 40,500.00, 19,800.00, 27,000.00, 20,700.00, 21,600.00, 41,400.00, 34,200.00, 21,600.00, 78,300.00, 32,400.00, 28,800.00, 18,900.00, 18,000.00, 28,800.00, 18,000.00, 7,200.00, 35,100.00, 24,300.00, 35,100.00, 34,200.00, 27,900.00, 30,600.00, 69,300.00, 35,100.00, 34,200.00, 34,200.00, 23,400.00",
+      "9.00, 5.00, 6.50, 8.75, 6.00, 7.50, 9.25, 6.00, 9.25, 6.75, 5.25, 9.25, 10.00, 8.75, 8.25, 6.25, 10.00, 6.25, 10.00, 9.50, 5.00, 7.50, 6.25, 8.00, 8.00, 6.50, 8.00, 10.00, 8.25, 8.00",
+      "6.00, 2.00, 10.00, 4.00, 3.00, 1.00, 1.00, 3.00, 5.00, 8.00, 3.00, 8.00, 2.00, 3.00, 1.00, 2.00, 3.00, 2.00, 1.00, 4.00, 2.00, 1.00, 1.00, 4.00, 3.00, 7.00, 4.00, 4.00, 1.00, 3.00",
+      "38,230.00, 20,180.00, 31,989.00, 35,258.00, 24,487.00, 28,300.00, 34,548.00, 24,557.00, 37,836.00, 31,340.00, 21,874.00, 40,405.00, 38,076.00, 34,265.00, 30,936.00, 24,665.00, 39,007.00, 24,578.00, 37,267.00, 37,878.00, 20,220.00, 28,400.00, 23,882.00, 32,427.00, 31,699.00, 29,670.00, 32,789.00, 39,792.00, 30,935.00, 31,701.00"
+    ],
+    "suggestedColumns" : [
+      "wake",
+      "estimatedSleep",
+      "coffee",
+      "actualSleep"
+    ],
+    "targetColumn" : "actualSleep",
+    "taskType" : "generalRegresor",
+    "transferLearningEmbeddingType" : "dynamic"
+  },
+  "snapshotRole" : {
+    "withoutSnapshots" : 0
+  },
+  "state" : "trained",
+  "title" : "BetterRest 1 copy",
+  "trainingEntity" : {
+    "analysedDataType" : "datasource",
+    "checkpointMetrics" : {
+
+    },
+    "dataResult" : {
+      "columnTypes" : [
+        "Double",
+        "Double",
+        "Double",
+        "Double"
+      ],
+      "columnValues" : [
+        "31,500.00, 32,400.00, 26,100.00, 40,500.00, 19,800.00, 27,000.00, 20,700.00, 21,600.00, 41,400.00, 34,200.00, 21,600.00, 78,300.00, 32,400.00, 28,800.00, 18,900.00, 18,000.00, 28,800.00, 18,000.00, 7,200.00, 35,100.00, 24,300.00, 35,100.00, 34,200.00, 27,900.00, 30,600.00, 69,300.00, 35,100.00, 34,200.00, 34,200.00, 23,400.00",
+        "9.00, 5.00, 6.50, 8.75, 6.00, 7.50, 9.25, 6.00, 9.25, 6.75, 5.25, 9.25, 10.00, 8.75, 8.25, 6.25, 10.00, 6.25, 10.00, 9.50, 5.00, 7.50, 6.25, 8.00, 8.00, 6.50, 8.00, 10.00, 8.25, 8.00",
+        "6.00, 2.00, 10.00, 4.00, 3.00, 1.00, 1.00, 3.00, 5.00, 8.00, 3.00, 8.00, 2.00, 3.00, 1.00, 2.00, 3.00, 2.00, 1.00, 4.00, 2.00, 1.00, 1.00, 4.00, 3.00, 7.00, 4.00, 4.00, 1.00, 3.00",
+        "38,230.00, 20,180.00, 31,989.00, 35,258.00, 24,487.00, 28,300.00, 34,548.00, 24,557.00, 37,836.00, 31,340.00, 21,874.00, 40,405.00, 38,076.00, 34,265.00, 30,936.00, 24,665.00, 39,007.00, 24,578.00, 37,267.00, 37,878.00, 20,220.00, 28,400.00, 23,882.00, 32,427.00, 31,699.00, 29,670.00, 32,789.00, 39,792.00, 30,935.00, 31,701.00"
+      ],
+      "columns" : [
+        "wake",
+        "estimatedSleep",
+        "coffee",
+        "actualSleep"
+      ],
+      "createdDate" : "2025-11-02T01:57:06Z",
+      "dataAnalysis" : {
+        "classifierAnalysis" : {
+
+        },
+        "issues" : [
+          {
+            "description" : "Data has 10000 rows",
+            "severity" : "info"
+          }
+        ],
+        "objectDetectorAnalysis" : {
+          "details" : {
+
+          }
+        },
+        "regressorAnalysis" : {
+          "targetRange" : [
+            19216,
+            45224
+          ]
+        },
+        "summary" : {
+          "canUseValidation" : 1,
+          "sampleCount" : 10000
+        }
+      },
+      "dataSourceID" : "8ACC4EC5-6E2A-4F04-BEEB-822AE1053D67",
+      "dataURL" : "file:///Users/niccho/dev/swift/HackingWithSwift/SwiftUI/project4-files/BetterRest.csv",
+      "itemsCount" : 10000,
+      "targetRange" : [
+        19216,
+        45224
+      ]
+    },
+    "dataSourceID" : "8ACC4EC5-6E2A-4F04-BEEB-822AE1053D67",
+    "featureExtractionCheckpointMayBeAvailable" : false,
+    "finishTime" : "2025-11-02T01:57:14Z",
+    "progress" : [
+
+    ],
+    "snapshottableCheckpoints" : {
+
+    },
+    "startTime" : "2025-11-02T01:57:14Z",
+    "trainingAccuracy" : 174.11518866000839,
+    "trainingResults" : {
+      "generalRegressor" : {
+        "maximumError" : 808.73828125,
+        "rootMeanSquaredError" : 174.11518866000839
+      }
+    },
+    "validationAccuracy" : 200.96828602835296,
+    "validationResults" : {
+      "generalRegressor" : {
+        "maximumError" : 1300.810546875,
+        "rootMeanSquaredError" : 200.96828602835296
+      }
+    }
+  },
+  "validationEntity" : {
+    "analysedDataType" : "auto",
+    "dataResult" : {
+      "createdDate" : "2025-11-02T01:57:06Z"
+    },
+    "splitOptions" : {
+      "strategy" : {
+        "automatic" : {
+
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

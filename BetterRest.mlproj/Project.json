@@ -1,0 +1,29 @@
+{
+  "activityEntities" : [
+    "projectCreated",
+    [
+      {
+        "createdDate" : "2025-11-02T01:54:06Z",
+        "event" : "projectCreated",
+        "id" : "FA7A9664-B4F0-4B3C-BFF8-168D8A16EDFF",
+        "subtitle" : "BetterRest",
+        "title" : "Project Created"
+      }
+    ]
+  ],
+  "authorName" : "niccho",
+  "createdDate" : "2025-11-02T01:54:06Z",
+  "description" : "",
+  "id" : "E12960D5-9C18-4239-B182-FA86D6B5D08F",
+  "license" : "",
+  "location" : "",
+  "modifiedDate" : "2025-11-02T01:54:06Z",
+  "projectName" : "BetterRest",
+  "settingsEntity" : {
+    "snapshotOnExtendTraining" : true,
+    "snapshotOnResumeTraining" : false
+  },
+  "taskType" : "generalRegresor",
+  "title" : "Tabular Regression",
+  "version" : "1.1"
+}
