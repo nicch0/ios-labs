@@ -44,6 +44,8 @@ struct OrbitView: View {
     let angleXOffset: CGFloat = 38
     let angleYOffset: CGFloat = 31
 
+    @State var offset: CGPoint = .init(x: 0, y: 0)
+
     @State private var buttonCount = 0
 
     var topLeftAngle: some View {
@@ -111,6 +113,39 @@ struct OrbitView: View {
         .onTapGesture {
             buttonCount += 1
         }
+
+        HStack {
+            Circle()
+                .frame(width: 20, height: 20)
+            Circle()
+                .frame(width: 20, height: 20)
+            Circle()
+                .frame(width: 20, height: 20)
+        }
+
+        VStack {
+            Circle()
+                .frame(width: 20, height: 20)
+            Circle()
+                .frame(width: 20, height: 20)
+            Circle()
+                .frame(width: 20, height: 20)
+        }
+
+        Circle()
+            .frame(width: 100, height: 100)
+            .offset(x: offset.x, y: offset.y)
+            .gesture(
+                DragGesture()
+                    .onChanged { dragVal in
+                        offset.x = dragVal.translation.width
+                        offset.y = dragVal.translation.height
+                    }
+                    .onEnded { _ in
+                        offset.x = 0
+                        offset.y = 0
+                    }
+            )
 
         Spacer()
     }
