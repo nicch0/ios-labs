@@ -1,0 +1,15 @@
+{
+  "originHash" : "aa06efe37275abd6438671b417fdbfa3115eec114a1fb74b7bd5fa51ef9d1ba0",
+  "pins" : [
+    {
+      "identity" : "swiftfulhaptics",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftfulThinking/SwiftfulHaptics.git",
+      "state" : {
+        "revision" : "1f38dabefc791b48baea346ee637d69b462f9168",
+        "version" : "2.0.5"
+      }
+    }
+  ],
+  "version" : 3
+}

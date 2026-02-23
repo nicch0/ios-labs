@@ -11,13 +11,6 @@ actor TemperatureLogger {
     var measurements: [Int]
     private(set) var max: Int
 
-    func update(with measurement: Int) {
-        measurements.append(measurement)
-        if measurement > max {
-            max = measurement
-        }
-    }
-    
     init(label: String, measurement: Int) {
         self.label = label
         measurements = [measurement]
@@ -40,16 +33,15 @@ func getCelsius(_ fahrenheit: Int) async throws -> Int {
 
 let logger = TemperatureLogger(label: "Outdoors", measurement: 32)
 
-// Task 1: converting fahrenheit to celsius
-Task {
-    await logger.convertFahrenheitToCelsius()
-    print("converted measurements: \(await logger.measurements)")
-}
-
-// Task 2: adds a new fahrenheit measurement while conversion is in progress
-Task {
-    try await Task.sleep(for: .seconds(2)) // sneaks in mid-conversion
-    await logger.update(with: 212) // 212°F = 100°C, but will it get converted?
-    print("added new measurement")
-}
-
+//// Task 1: converting fahrenheit to celsius
+//Task {
+//    await logger.convertFahrenheitToCelsius()
+//    print("converted measurements: \(await logger.measurements)")
+//}
+//
+//// Task 2: adds a new fahrenheit measurement while conversion is in progress
+//Task {
+//    try await Task.sleep(for: .seconds(2)) // sneaks in mid-conversion
+//    await logger.update(with: 212) // 212°F = 100°C, but will it get converted?
+//    print("added new measurement")
+//}
